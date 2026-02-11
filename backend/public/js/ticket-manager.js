@@ -27,7 +27,7 @@ class TicketManager {
     this.loadTickets();
     this.updateTicketStats();
     
-    // === FIX: Start the visibility enforcer immediately ===
+    // Start the visibility enforcer immediately
     this.startVisibilityEnforcer();
   }
 
@@ -88,35 +88,26 @@ class TicketManager {
     }
   }
 
-  // === CRITICAL FIX: VISIBILITY ENFORCER ===
-  // This actively monitors the active tab and force-hides the ticket section 
-  // if we are NOT on the tickets tab. Overrides CSS leaks.
+  // Active Tab Visibility Enforcer
   startVisibilityEnforcer() {
     setInterval(() => {
         const ticketList = document.getElementById("my-tickets-list");
         if (!ticketList) return;
 
-        // Find the container section (the one with the "My Tickets" header)
         const ticketSection = ticketList.closest('.content-section');
         if (!ticketSection) return;
 
-        // Check which tab is currently active
         const activeTabBtn = document.querySelector('.nav-rail-btn.active');
         const activeTabName = activeTabBtn ? activeTabBtn.getAttribute('data-tab') : '';
 
         if (activeTabName === 'ticketing') {
-            // If we are on tickets, make sure it's visible
             if (ticketSection.style.display === 'none') {
                 ticketSection.style.removeProperty('display');
-                // Or force flex if your css requires it
-                // ticketSection.style.display = 'flex'; 
             }
         } else {
-            // If we are NOT on tickets, FORCE HIDE IT via inline style
-            // This overrides any class-based display rules
             ticketSection.style.display = 'none';
         }
-    }, 100); // Check every 100ms to catch tab switches instantly
+    }, 100);
   }
 
   loadTickets() {
@@ -142,7 +133,6 @@ class TicketManager {
     const modal = document.getElementById("create-ticket-modal");
     if (modal) {
       modal.classList.remove("hidden");
-      // Use flex to center, matching your CSS
       modal.style.display = "flex"; 
       document.body.style.overflow = "hidden";
     }
@@ -251,8 +241,9 @@ class TicketManager {
 
   createTicketElement(ticket) {
     const ticketDiv = document.createElement("div");
-    ticketDiv.className = "ticket-item"; // Make sure css has this class style or use conversation-item
-    // Fallback to conversation-item style if ticket-item isn't defined
+    ticketDiv.className = "ticket-item"; 
+    
+    // Fallback style check
     if (!document.querySelector('style').innerHTML.includes('.ticket-item')) {
         ticketDiv.className = "conversation-item";
     }
@@ -262,13 +253,7 @@ class TicketManager {
 
     const timeAgo = this.getTimeAgo(ticket.updated_at || ticket.created_at);
     
-    let statusClass = "open"; 
-    if (ticket.status === 'in-progress') statusClass = "in-progress";
-    else if (ticket.status === 'resolved') statusClass = "resolved";
-    else if (ticket.status === 'closed') statusClass = "closed";
-    else if (ticket.status === 'pending') statusClass = "pending";
-
-    // Using inline styles/classes from sidebar.php context
+    // HTML Structure
     ticketDiv.innerHTML = `
       <div class="conversation-info" style="width: 100%;">
         <div style="display:flex; justify-content:space-between; align-items:flex-start;">
@@ -285,9 +270,26 @@ class TicketManager {
       </div>
     `;
     
+    // This listener was calling a missing function. The function is now added below.
     ticketDiv.addEventListener("click", () => this.openTicketDetails(ticket.id));
     return ticketDiv;
   } 
+
+  // === FIXED: ADDED MISSING FUNCTION ===
+ openTicketDetails(ticketId) {
+  console.log("Opening ticket details:", ticketId);
+
+  // 1. Visual Feedback: Highlight active item
+  const allTickets = document.querySelectorAll('.ticket-item');
+  allTickets.forEach(el => el.classList.remove('active'));
+  
+  const currentTicket = document.querySelector(`.ticket-item[data-ticket-id="${ticketId}"]`);
+  if (currentTicket) currentTicket.classList.add('active');
+
+  // 2. Redirect to the ticket view
+  // This will open your backend\app\Views\tickets\index.php via the controller
+  window.location.href = `${window.baseUrl}tickets/index/${ticketId}`;
+}
 
   getStatusColor(status) {
       switch(status) {
