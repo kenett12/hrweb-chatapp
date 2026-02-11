@@ -1,0 +1,82 @@
+DEBUG - 2026-02-01 23:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> Groups data: []
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> Users data: [{"id":"3","username":"test1","email":"test1@gmail.com","password":"$2y$10$jICcO5xTe1eroaxWRwBLWeRFA6K.4VDVy0lQAtMD1yq\/TEs0sryCG","nickname":"test1","avatar":"default-avatar.png","status":"online","role":"superadmin","last_active":"2026-01-31 06:41:14","created_at":"2026-01-29 01:26:41","updated_at":"2026-01-31 06:41:14","last_message":{"id":"104","sender_id":"1","receiver_id":"3","group_id":null,"content":"File: cropped.png","type":"image","file_url":"cropped.png","is_group":"0","created_at":"2026-01-31 10:37:03","is_read":"0","reply_to_id":null,"reply_to_sender_id":null,"reply_to_content":"This message","reply_to_sender_name":null,"original_filename":null,"file_size":null},"unread_count":0,"online":false},{"id":"4","username":"test2","email":"test2@hrweb.com","password":"$2y$10$Vivr70pMTgareoA4PBt73eA89s.zexiwpelbuzgBYqMY2BwONS.7q","nickname":"Yuna Jimenez","avatar":"default-avatar.png","status":"online","role":"tsr","last_active":null,"created_at":"2026-01-31 03:54:21","updated_at":"2026-01-31 03:54:21","unread_count":0,"online":false},{"id":"5","username":"test3","email":"test3@hrweb.com","password":"$2y$10$89IPB\/4wihH.xHIy0\/BM\/uYHTh5QQOukTsyeNs.RYAjLwxB59STrm","nickname":"Christian Gutierrez","avatar":"default-avatar.png","status":"offline","role":"tsr","last_active":null,"created_at":"2026-01-31 03:55:42","updated_at":"2026-01-31 03:55:42","unread_count":0,"online":false}]
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:39 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Groups data: []
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Users data: [{"id":"3","username":"test1","email":"test1@gmail.com","password":"$2y$10$jICcO5xTe1eroaxWRwBLWeRFA6K.4VDVy0lQAtMD1yq\/TEs0sryCG","nickname":"test1","avatar":"default-avatar.png","status":"online","role":"superadmin","last_active":"2026-01-31 06:41:14","created_at":"2026-01-29 01:26:41","updated_at":"2026-01-31 06:41:14","last_message":{"id":"104","sender_id":"1","receiver_id":"3","group_id":null,"content":"File: cropped.png","type":"image","file_url":"cropped.png","is_group":"0","created_at":"2026-01-31 10:37:03","is_read":"0","reply_to_id":null,"reply_to_sender_id":null,"reply_to_content":"This message","reply_to_sender_name":null,"original_filename":null,"file_size":null},"unread_count":0,"online":false},{"id":"4","username":"test2","email":"test2@hrweb.com","password":"$2y$10$Vivr70pMTgareoA4PBt73eA89s.zexiwpelbuzgBYqMY2BwONS.7q","nickname":"Yuna Jimenez","avatar":"default-avatar.png","status":"online","role":"tsr","last_active":null,"created_at":"2026-01-31 03:54:21","updated_at":"2026-01-31 03:54:21","unread_count":0,"online":false},{"id":"5","username":"test3","email":"test3@hrweb.com","password":"$2y$10$89IPB\/4wihH.xHIy0\/BM\/uYHTh5QQOukTsyeNs.RYAjLwxB59STrm","nickname":"Christian Gutierrez","avatar":"default-avatar.png","status":"offline","role":"tsr","last_active":null,"created_at":"2026-01-31 03:55:42","updated_at":"2026-01-31 03:55:42","unread_count":0,"online":false}]
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:54 --> Getting direct messages between user 1 and 3
+DEBUG - 2026-02-01 23:57:54 --> Last query: SELECT `messages`.*, `users`.`username`, `users`.`nickname`, `users`.`avatar`, `message_status`.`status`
+FROM `messages`
+JOIN `users` ON `users`.`id` = `messages`.`sender_id`
+LEFT JOIN `message_status` ON `messages`.`id` = `message_status`.`message_id`
+WHERE `messages`.`is_group` = 0
+AND   (
+   (
+`messages`.`sender_id` = '1'
+AND `messages`.`receiver_id` = '3'
+  )
+OR    (
+`messages`.`sender_id` = '3'
+AND `messages`.`receiver_id` = '1'
+  )
+ )
+ORDER BY `messages`.`created_at` ASC
+DEBUG - 2026-02-01 23:57:54 --> Marked messages from user 3 to 1 as read
+DEBUG - 2026-02-01 23:57:54 --> Sending messages_read event to socket server: {"event":"messages_read","data":{"reader_id":"1","chat_id":"3","is_group":false,"timestamp":"2026-02-01 23:57:54"}}
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:54 --> ApiController initialized
+DEBUG - 2026-02-01 23:57:55 --> ApiController initialized
+ERROR - 2026-02-01 23:57:55 --> Failed to send messages_read event to socket server: 22 : The requested URL returned error: 404
+DEBUG - 2026-02-01 23:57:55 --> Found 104 direct messages
+DEBUG - 2026-02-01 23:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:55 --> Groups data: []
+DEBUG - 2026-02-01 23:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:57:55 --> Users data: [{"id":"3","username":"test1","email":"test1@gmail.com","password":"$2y$10$jICcO5xTe1eroaxWRwBLWeRFA6K.4VDVy0lQAtMD1yq\/TEs0sryCG","nickname":"test1","avatar":"default-avatar.png","status":"online","role":"superadmin","last_active":"2026-01-31 06:41:14","created_at":"2026-01-29 01:26:41","updated_at":"2026-01-31 06:41:14","last_message":{"id":"104","sender_id":"1","receiver_id":"3","group_id":null,"content":"File: cropped.png","type":"image","file_url":"cropped.png","is_group":"0","created_at":"2026-01-31 10:37:03","is_read":"0","reply_to_id":null,"reply_to_sender_id":null,"reply_to_content":"This message","reply_to_sender_name":null,"original_filename":null,"file_size":null},"unread_count":0,"online":false},{"id":"4","username":"test2","email":"test2@hrweb.com","password":"$2y$10$Vivr70pMTgareoA4PBt73eA89s.zexiwpelbuzgBYqMY2BwONS.7q","nickname":"Yuna Jimenez","avatar":"default-avatar.png","status":"online","role":"tsr","last_active":null,"created_at":"2026-01-31 03:54:21","updated_at":"2026-01-31 03:54:21","unread_count":0,"online":false},{"id":"5","username":"test3","email":"test3@hrweb.com","password":"$2y$10$89IPB\/4wihH.xHIy0\/BM\/uYHTh5QQOukTsyeNs.RYAjLwxB59STrm","nickname":"Christian Gutierrez","avatar":"default-avatar.png","status":"offline","role":"tsr","last_active":null,"created_at":"2026-01-31 03:55:42","updated_at":"2026-01-31 03:55:42","unread_count":0,"online":false}]
+DEBUG - 2026-02-01 23:58:26 --> ApiController initialized
+DEBUG - 2026-02-01 23:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:58:26 --> ApiController initialized
+DEBUG - 2026-02-01 23:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:58:55 --> ApiController initialized
+DEBUG - 2026-02-01 23:58:55 --> ApiController initialized
+DEBUG - 2026-02-01 23:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:59:25 --> ApiController initialized
+DEBUG - 2026-02-01 23:59:25 --> ApiController initialized
+DEBUG - 2026-02-01 23:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:59:55 --> ApiController initialized
+DEBUG - 2026-02-01 23:59:55 --> ApiController initialized
+DEBUG - 2026-02-01 23:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-01 23:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,415 @@
+/* Chat container */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: calc(100vh - 200px);
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: var(--bg-primary);
+}
+
+.message {
+  margin-bottom: 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.message.sent {
+  margin-left: auto;
+  text-align: right;
+}
+
+.message.received {
+  margin-right: auto;
+}
+
+.message.incoming {
+  background-color: #e9ecef;
+  align-self: flex-start;
+  margin-right: auto;
+  border-bottom-left-radius: 0;
+}
+
+.message.outgoing {
+  background-color: #d1e7ff;
+  align-self: flex-end;
+  margin-left: auto;
+  border-bottom-right-radius: 0;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.message.sent .message-header {
+  flex-direction: row-reverse;
+}
+
+.message.incoming .message-header {
+  flex-direction: row;
+}
+
+.message-sender {
+  font-weight: bold;
+}
+
+.message-time {
+  color: #6c757d;
+}
+
+.message-body {
+  word-break: break-word;
+}
+
+.sender-name {
+  font-weight: 600;
+}
+
+.message-text {
+  background: var(--bg-secondary);
+  padding: 10px 15px;
+  border-radius: 18px;
+  display: inline-block;
+  max-width: 100%;
+  color: var(--text-primary);
+}
+
+.message.sent .message-text {
+  background: var(--primary-color);
+  color: white;
+}
+
+.message-input-container {
+  padding: 20px;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.message-form {
+  display: flex;
+  margin-top: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.attach-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.attach-btn:hover {
+  background: var(--bg-hover);
+}
+
+.message-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.message-input:focus {
+  border-color: var(--primary-color);
+}
+
+.message-input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.send-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.send-button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover {
+  background-color: #0b5ed7;
+}
+
+.send-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.file-preview {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.file-preview-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.remove-file {
+  background: var(--danger-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.file-attachment {
+  margin-top: 8px;
+  padding: 10px;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.image-attachment img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.file-name {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.download-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+/* Ticket status */
+.ticket-status {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-open {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.status-in-progress {
+  background-color: #cff4fc;
+  color: #055160;
+}
+
+.status-resolved {
+  background-color: #e2e3e5;
+  color: #41464b;
+}
+
+.status-closed {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+/* Closed ticket banner */
+.closed-ticket-banner {
+  background-color: #f8d7da;
+  color: #842029;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Error toast */
+.error-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #f8d7da;
+  color: #842029;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  animation: fade-in 0.3s ease-in-out;
+}
+
+.error-toast.fade-out {
+  animation: fade-out 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+/* Custom scrollbar */
+.message-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.message-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.message-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.has-new-message {
+  background: var(--primary-light) !important;
+  border-left: 3px solid var(--primary-color);
+}
+
+/* Dark mode styles */
+body.dark-mode .messages-container {
+  background: var(--bg-primary);
+}
+
+body.dark-mode .message.incoming {
+  background-color: #495057;
+  color: var(--text-primary);
+}
+
+body.dark-mode .message.outgoing {
+  background-color: #343a40;
+  color: var(--text-primary);
+}
+
+body.dark-mode .message-input-container {
+  background: var(--bg-secondary);
+  border-top-color: var(--border-color);
+}
+
+body.dark-mode .message-input {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .message-input:focus {
+  border-color: var(--primary-color);
+}
+
+body.dark-mode .file-preview {
+  background: var(--bg-primary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .file-attachment {
+  background: var(--bg-primary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .ticket-status {
+  color: var(--text-primary);
+}
+
+body.dark-mode .closed-ticket-banner {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+body.dark-mode .error-toast {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+body.dark-mode .send-button:hover {
+  background-color: #0b5ed7;
+}
+
+body.dark-mode .send-button:disabled {
+  background-color: #6c757d;
+}
+
+body.dark-mode .attach-btn:hover {
+  background: var(--bg-hover);
+}

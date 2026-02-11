@@ -1,0 +1,330 @@
+/* =========================================
+   FLAT & CLEAN TICKET SIDEBAR (No Gradients)
+   ========================================= */
+
+:root {
+    /* Flat Color Palette */
+    --bg-main: #0f172a;       /* Deepest Dark */
+    --bg-secondary: #1e293b;  /* Panel Background */
+    --bg-hover: #334155;      /* Hover State */
+    --border-color: #334155;  /* Subtle Borders */
+    
+    /* Solid Accents */
+    --primary: #8b5cf6;       /* Solid Violet */
+    --primary-hover: #7c3aed;
+    --text-main: #ffffff;
+    --text-muted: #94a3b8;
+    
+    /* Status Colors (Solid) */
+    --status-open: #3b82f6;   /* Blue */
+    --status-pending: #f59e0b; /* Orange */
+    --status-resolved: #10b981; /* Green */
+    --status-closed: #64748b; /* Grey */
+}
+
+/* Reset */
+#ticketing-content {
+    background-color: var(--bg-main);
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =========================================
+   HEADER
+   ========================================= */
+#ticketing-content .tab-header {
+    padding: 16px 20px;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ticketing-content .tab-header h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-main);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#my-tickets-count {
+    background-color: var(--bg-main);
+    color: var(--text-muted);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-left: 8px;
+    border: 1px solid var(--border-color);
+}
+
+/* Solid Plus Button */
+#create-ticket-btn {
+    background-color: var(--primary);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#create-ticket-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* =========================================
+   FILTERS
+   ========================================= */
+.ticket-filters {
+    padding: 10px 20px;
+    background-color: var(--bg-main);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+.filter-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    background-color: var(--bg-secondary);
+    color: var(--text-main);
+}
+
+.filter-btn.active {
+    background-color: var(--bg-secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* =========================================
+   TICKET LIST
+   ========================================= */
+#my-tickets-list {
+    padding: 15px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Ticket Card */
+.ticket-item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ticket-item:hover {
+    border-color: var(--primary);
+}
+
+/* Top Row: Subject */
+.ticket-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ticket-subject {
+    color: var(--text-main);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* Meta Row: Status & Category */
+.ticket-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.ticket-category {
+    font-size: 11px;
+    color: var(--text-muted);
+    background-color: var(--bg-main);
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+/* Status Badges - Solid Colors */
+.ticket-status {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+.ticket-status.open { color: #60a5fa; background: rgba(59, 130, 246, 0.1); }
+.ticket-status.pending { color: #fbbf24; background: rgba(245, 158, 11, 0.1); }
+.ticket-status.in-progress { color: #a78bfa; background: rgba(139, 92, 246, 0.1); }
+.ticket-status.resolved { color: #34d399; background: rgba(16, 185, 129, 0.1); }
+.ticket-status.closed { color: #94a3b8; background: rgba(148, 163, 184, 0.1); }
+
+.ticket-time {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-align: right;
+}
+
+/* =========================================
+   EMPTY STATE
+   ========================================= */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 20px;
+}
+
+.empty-state i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: var(--border-color);
+}
+
+.empty-state h2 {
+    font-size: 15px;
+    color: var(--text-main);
+    margin: 0 0 5px 0;
+}
+
+.empty-state p {
+    font-size: 13px;
+    margin: 0;
+}
+
+/* =========================================
+   MODAL (Solid & Flat)
+   ========================================= */
+#create-ticket-modal {
+    background-color: rgba(0, 0, 0, 0.7); /* Simple dark overlay */
+}
+
+#create-ticket-modal .overlay-container {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    width: 450px;
+}
+
+/* Header */
+#create-ticket-modal .overlay-header {
+    background-color: var(--bg-main);
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#create-ticket-modal .overlay-header h3 {
+    color: var(--text-main);
+    font-size: 16px;
+    margin: 0;
+}
+
+.close-overlay {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-overlay:hover {
+    color: var(--text-main);
+}
+
+/* Body */
+#create-ticket-modal .overlay-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    background-color: var(--bg-main);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 10px;
+    color: var(--text-main);
+    font-size: 14px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.form-control::placeholder {
+    color: #475569;
+}
+
+textarea.form-control {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Footer Button */
+.save-btn {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.save-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+/* Fix for Select dropdown icon alignment */
+.form-control.dropdown-fix {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2394a3b8' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 30px;
+}

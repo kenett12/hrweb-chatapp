@@ -1,0 +1,1411 @@
+DEBUG - 2025-04-28 06:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 06:35:39 --> Error: Call to undefined function App\Controllers\imagecreatetruecolor()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(13): App\Controllers\Home->createDefaultFileIcon()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\chat-app\\backend\\public\\index.php')
+DEBUG - 2025-04-28 06:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 06:35:50 --> CSRF token verified.
+DEBUG - 2025-04-28 06:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:51 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:51 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:53 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:53 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:53 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:53 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:35:53 --> Found 101 direct messages
+DEBUG - 2025-04-28 06:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:56 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:56 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:56 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:56 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:35:56 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:58 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:58 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:58 --> ApiController initialized
+DEBUG - 2025-04-28 06:35:58 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:35:58 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:35:59 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:35:59 --> Is admin: Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:35:59 --> Is admin: no
+DEBUG - 2025-04-28 06:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:02 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:03 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:03 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:03 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:36:03 --> Found 101 direct messages
+DEBUG - 2025-04-28 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:04 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:04 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:04 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:04 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:36:04 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:08 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:08 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:08 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:08 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:36:08 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:10 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:36:10 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:36:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:36:12 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:36:12 --> Found 101 direct messages
+DEBUG - 2025-04-28 06:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:09 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:09 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:09 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:09 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:37:09 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:11 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:37:11 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:13 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:13 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:37:13 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:13 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:14 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:37:14 --> ApiController initialized
+DEBUG - 2025-04-28 06:37:14 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:37:14 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:40:08 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:08 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:08 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:08","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 06:40:08 --> Message saved successfully with ID: 742
+DEBUG - 2025-04-28 06:40:08 --> Sending message to socket server: {"event":"new_message","data":{"id":742,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 06:40:08","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:08 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:11 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:11 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:11","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 06:40:11 --> Message saved successfully with ID: 743
+DEBUG - 2025-04-28 06:40:11 --> Sending message to socket server: {"event":"new_message","data":{"id":743,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 06:40:11","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:11 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:13 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:14 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:14 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:14 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:40:14 --> Found 0 direct messages
+DEBUG - 2025-04-28 06:40:15 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:15 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:15 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:15","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:15 --> Message saved successfully with ID: 744
+DEBUG - 2025-04-28 06:40:15 --> Sending message to socket server: {"event":"new_message","data":{"id":744,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 06:40:15","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:15 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:16 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:16 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:16 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:16","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:16 --> Message saved successfully with ID: 745
+DEBUG - 2025-04-28 06:40:16 --> Sending message to socket server: {"event":"new_message","data":{"id":745,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 06:40:16","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:16 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:19 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:19 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:19 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:19 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:40:19 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:24 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:40:24 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:30 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:30 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:31 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:31 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:40:31 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:40:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:37 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:37 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:37","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:37 --> Message saved successfully with ID: 746
+DEBUG - 2025-04-28 06:40:37 --> Sending message to socket server: {"event":"new_message","data":{"id":746,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 06:40:37","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:37 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:37 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:37 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:37","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:37 --> Message saved successfully with ID: 747
+DEBUG - 2025-04-28 06:40:37 --> Sending message to socket server: {"event":"new_message","data":{"id":747,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 06:40:37","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:37 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:38 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:38 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:38 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:38","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:38 --> Message saved successfully with ID: 748
+DEBUG - 2025-04-28 06:40:38 --> Sending message to socket server: {"event":"new_message","data":{"id":748,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 06:40:38","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:38 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:38 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:38 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"z","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:38 --> Attempting to save message: {"sender_id":"9","content":"z","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:38","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:38 --> Message saved successfully with ID: 749
+DEBUG - 2025-04-28 06:40:38 --> Sending message to socket server: {"event":"new_message","data":{"id":749,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"z","type":"text","file_url":null,"created_at":"2025-04-28 06:40:38","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:38 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:40:38 --> ApiController initialized
+DEBUG - 2025-04-28 06:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:40:38 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"x","type":"text","userId":"9"}
+DEBUG - 2025-04-28 06:40:38 --> Attempting to save message: {"sender_id":"9","content":"x","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 06:40:38","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 06:40:38 --> Message saved successfully with ID: 750
+DEBUG - 2025-04-28 06:40:38 --> Sending message to socket server: {"event":"new_message","data":{"id":750,"sender_id":"9","receiver_id":"11","group_id":null,"is_group":0,"content":"x","type":"text","file_url":null,"created_at":"2025-04-28 06:40:38","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 06:40:38 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 06:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:43:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:43:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:43:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:43:37 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:43:37 --> Found 7 direct messages
+DEBUG - 2025-04-28 06:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:37 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:38 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:38 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:38 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:44:38 --> Found 7 direct messages
+DEBUG - 2025-04-28 06:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:43 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:44:43 --> Is admin: Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:44:43 --> Is admin: no
+DEBUG - 2025-04-28 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:44 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:44 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:44 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:44 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:46 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 06:44:46 --> Is admin: Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 06:44:46 --> Is admin: yes
+DEBUG - 2025-04-28 06:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:47 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:48 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:48 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:48 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:50 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:50 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:44:51 --> ApiController initialized
+DEBUG - 2025-04-28 06:44:51 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:44:51 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:51:54 --> ApiController initialized
+DEBUG - 2025-04-28 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:51:54 --> ApiController initialized
+DEBUG - 2025-04-28 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:51:54 --> ApiController initialized
+DEBUG - 2025-04-28 06:51:54 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:51:54 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:00 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:00 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:52:00 --> Found 7 direct messages
+DEBUG - 2025-04-28 06:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:05 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:52:05 --> Is admin: Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 06:52:05 --> Is admin: no
+DEBUG - 2025-04-28 06:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:06 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:06 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:06 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:07 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:07 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 06:52:07 --> Is admin: Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 06:52:07 --> Is admin: yes
+DEBUG - 2025-04-28 06:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:08 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:09 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:09 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:09 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":3}
+DEBUG - 2025-04-28 06:52:09 --> Is admin: Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":3}
+DEBUG - 2025-04-28 06:52:09 --> Is admin: yes
+DEBUG - 2025-04-28 06:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:16 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:16 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:17 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:17 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:52:17 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:20 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:21 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:52:24 --> ApiController initialized
+DEBUG - 2025-04-28 06:52:24 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:52:24 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:10 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:10 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 06:59:10 --> Found 2 direct messages
+DEBUG - 2025-04-28 06:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:11 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 06:59:12 --> ApiController initialized
+DEBUG - 2025-04-28 06:59:12 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 06:59:12 --> Found 7 direct messages
+DEBUG - 2025-04-28 07:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:26 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":3}
+DEBUG - 2025-04-28 07:03:26 --> Is admin: yes
+DEBUG - 2025-04-28 07:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:29 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:30 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:03:30 --> Found 2 direct messages
+DEBUG - 2025-04-28 07:03:32 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:32 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:03:32 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:03:32","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:03:32 --> Message saved successfully with ID: 751
+DEBUG - 2025-04-28 07:03:32 --> Sending message to socket server: {"event":"new_message","data":{"id":751,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:03:32","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:03:32 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:03:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:33 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"m,ice","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:03:33 --> Attempting to save message: {"sender_id":"9","content":"m,ice","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:03:33","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:03:33 --> Message saved successfully with ID: 752
+DEBUG - 2025-04-28 07:03:33 --> Sending message to socket server: {"event":"new_message","data":{"id":752,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"m,ice","type":"text","file_url":null,"created_at":"2025-04-28 07:03:33","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:03:33 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:03:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:03:33 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:03:33 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:03:33","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:03:33 --> Message saved successfully with ID: 753
+DEBUG - 2025-04-28 07:03:33 --> Sending message to socket server: {"event":"new_message","data":{"id":753,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 07:03:33","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:03:33 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:47 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:47 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:47 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:47 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:23:48 --> Found 5 direct messages
+DEBUG - 2025-04-28 07:23:49 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:49 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:23:49 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:23:49","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:23:49 --> Message saved successfully with ID: 754
+DEBUG - 2025-04-28 07:23:49 --> Sending message to socket server: {"event":"new_message","data":{"id":754,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:23:49","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:23:49 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:23:50 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:50 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:23:50 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:23:50","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:23:50 --> Message saved successfully with ID: 755
+DEBUG - 2025-04-28 07:23:50 --> Sending message to socket server: {"event":"new_message","data":{"id":755,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:23:50","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:23:50 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:23:50 --> ApiController initialized
+DEBUG - 2025-04-28 07:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:23:50 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:23:50 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:23:50","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:23:50 --> Message saved successfully with ID: 756
+DEBUG - 2025-04-28 07:23:50 --> Sending message to socket server: {"event":"new_message","data":{"id":756,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 07:23:50","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:23:50 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 07:24:14 --> CSRF token verified.
+DEBUG - 2025-04-28 07:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:16 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:16 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:18 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:18 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:18 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:18 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:24:18 --> Found 8 direct messages
+DEBUG - 2025-04-28 07:24:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:22 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:24:22 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:24:22","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:24:22 --> Message saved successfully with ID: 757
+DEBUG - 2025-04-28 07:24:22 --> Sending message to socket server: {"event":"new_message","data":{"id":757,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:24:22","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:24:22 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:24:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:22 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:24:22 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:24:22","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:24:22 --> Message saved successfully with ID: 758
+DEBUG - 2025-04-28 07:24:22 --> Sending message to socket server: {"event":"new_message","data":{"id":758,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:24:22","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:24:22 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:24:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:24:28 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"rts","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:24:28 --> Attempting to save message: {"sender_id":"10","content":"rts","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:24:28","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:24:28 --> Message saved successfully with ID: 759
+DEBUG - 2025-04-28 07:24:28 --> Sending message to socket server: {"event":"new_message","data":{"id":759,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"rts","type":"text","file_url":null,"created_at":"2025-04-28 07:24:28","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:24:28 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:25:20 --> ApiController initialized
+DEBUG - 2025-04-28 07:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:25:20 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"@sean","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:25:20 --> Attempting to save message: {"sender_id":"10","content":"@sean","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:25:20","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:25:20 --> Message saved successfully with ID: 760
+DEBUG - 2025-04-28 07:25:20 --> Sending message to socket server: {"event":"new_message","data":{"id":760,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"@sean","type":"text","file_url":null,"created_at":"2025-04-28 07:25:20","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:25:20 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:25:23 --> ApiController initialized
+DEBUG - 2025-04-28 07:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:25:23 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"@Sean1","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:25:23 --> Attempting to save message: {"sender_id":"10","content":"@Sean1","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:25:23","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:25:23 --> Message saved successfully with ID: 761
+DEBUG - 2025-04-28 07:25:23 --> Sending message to socket server: {"event":"new_message","data":{"id":761,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"@Sean1","type":"text","file_url":null,"created_at":"2025-04-28 07:25:23","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:25:23 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+CRITICAL - 2025-04-28 07:29:51 --> Error: Call to undefined function App\Controllers\imagecreatetruecolor()
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(13): App\Controllers\Home->createDefaultFileIcon()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\chat-app\\backend\\public\\index.php')
+DEBUG - 2025-04-28 07:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:29:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:29:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:30:03 --> ApiController initialized
+DEBUG - 2025-04-28 07:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:30:03 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"asdsa","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:30:03 --> Attempting to save message: {"sender_id":"10","content":"asdsa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:30:03","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:30:03 --> Message saved successfully with ID: 762
+DEBUG - 2025-04-28 07:30:03 --> Sending message to socket server: {"event":"new_message","data":{"id":762,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"asdsa","type":"text","file_url":null,"created_at":"2025-04-28 07:30:03","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:30:03 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:30:03 --> ApiController initialized
+DEBUG - 2025-04-28 07:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:30:03 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:30:03 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:30:03","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:30:03 --> Message saved successfully with ID: 763
+DEBUG - 2025-04-28 07:30:03 --> Sending message to socket server: {"event":"new_message","data":{"id":763,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:30:03","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:30:03 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:30:03 --> ApiController initialized
+DEBUG - 2025-04-28 07:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:30:03 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:30:03 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:30:03","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:30:03 --> Message saved successfully with ID: 764
+DEBUG - 2025-04-28 07:30:03 --> Sending message to socket server: {"event":"new_message","data":{"id":764,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:30:03","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:30:03 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:30:04 --> ApiController initialized
+DEBUG - 2025-04-28 07:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:30:04 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:30:04 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:30:04","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:30:04 --> Message saved successfully with ID: 765
+DEBUG - 2025-04-28 07:30:04 --> Sending message to socket server: {"event":"new_message","data":{"id":765,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:30:04","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:30:04 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:35 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:35 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:44 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:44 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sadsa","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:44 --> Attempting to save message: {"sender_id":"10","content":"sadsa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:44","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:44 --> Message saved successfully with ID: 766
+DEBUG - 2025-04-28 07:31:44 --> Sending message to socket server: {"event":"new_message","data":{"id":766,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sadsa","type":"text","file_url":null,"created_at":"2025-04-28 07:31:44","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:44 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:44 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:44 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sad","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:44 --> Attempting to save message: {"sender_id":"10","content":"sad","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:44","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:44 --> Message saved successfully with ID: 767
+DEBUG - 2025-04-28 07:31:44 --> Sending message to socket server: {"event":"new_message","data":{"id":767,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sad","type":"text","file_url":null,"created_at":"2025-04-28 07:31:44","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:44 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:44 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:44 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:44 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:44","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:44 --> Message saved successfully with ID: 768
+DEBUG - 2025-04-28 07:31:44 --> Sending message to socket server: {"event":"new_message","data":{"id":768,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:31:44","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:44 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:44 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:44 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:44 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:44","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:45 --> Message saved successfully with ID: 769
+DEBUG - 2025-04-28 07:31:45 --> Sending message to socket server: {"event":"new_message","data":{"id":769,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:31:45","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:45 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:45 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:45 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"d","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:45 --> Attempting to save message: {"sender_id":"10","content":"d","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:45","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:45 --> Message saved successfully with ID: 770
+DEBUG - 2025-04-28 07:31:45 --> Sending message to socket server: {"event":"new_message","data":{"id":770,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"d","type":"text","file_url":null,"created_at":"2025-04-28 07:31:45","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:45 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:45 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:45 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sa","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:31:45 --> Attempting to save message: {"sender_id":"10","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:45","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:31:45 --> Message saved successfully with ID: 771
+DEBUG - 2025-04-28 07:31:45 --> Sending message to socket server: {"event":"new_message","data":{"id":771,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:31:45","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:31:45 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:51 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:51 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:55 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:31:55 --> Found 23 direct messages
+DEBUG - 2025-04-28 07:31:59 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:59 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"as","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:31:59 --> Attempting to save message: {"sender_id":"9","content":"as","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:59","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:31:59 --> Message saved successfully with ID: 772
+DEBUG - 2025-04-28 07:31:59 --> Sending message to socket server: {"event":"new_message","data":{"id":772,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"as","type":"text","file_url":null,"created_at":"2025-04-28 07:31:59","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:31:59 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:59 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:59 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sa","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:31:59 --> Attempting to save message: {"sender_id":"9","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:59","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:31:59 --> Message saved successfully with ID: 773
+DEBUG - 2025-04-28 07:31:59 --> Sending message to socket server: {"event":"new_message","data":{"id":773,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:31:59","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:31:59 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:31:59 --> ApiController initialized
+DEBUG - 2025-04-28 07:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:31:59 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:31:59 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:31:59","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:31:59 --> Message saved successfully with ID: 774
+DEBUG - 2025-04-28 07:31:59 --> Sending message to socket server: {"event":"new_message","data":{"id":774,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:31:59","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:31:59 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:00 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:00 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:32:00 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:32:00","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:32:00 --> Message saved successfully with ID: 775
+DEBUG - 2025-04-28 07:32:00 --> Sending message to socket server: {"event":"new_message","data":{"id":775,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:32:00","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:32:00 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:00 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:00 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:32:00 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:32:00","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:32:00 --> Message saved successfully with ID: 776
+DEBUG - 2025-04-28 07:32:00 --> Sending message to socket server: {"event":"new_message","data":{"id":776,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:32:00","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:32:00 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:04 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:04 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sa","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:32:04 --> Attempting to save message: {"sender_id":"10","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:32:04","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:32:04 --> Message saved successfully with ID: 777
+DEBUG - 2025-04-28 07:32:04 --> Sending message to socket server: {"event":"new_message","data":{"id":777,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:32:04","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:32:04 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:04 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:04 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sa","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:32:04 --> Attempting to save message: {"sender_id":"10","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:32:04","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:32:04 --> Message saved successfully with ID: 778
+DEBUG - 2025-04-28 07:32:04 --> Sending message to socket server: {"event":"new_message","data":{"id":778,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:32:04","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:32:04 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:04 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:04 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:32:04 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:32:04","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:32:04 --> Message saved successfully with ID: 779
+DEBUG - 2025-04-28 07:32:04 --> Sending message to socket server: {"event":"new_message","data":{"id":779,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:32:04","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:32:04 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:14 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:14 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:15 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:15 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:32:15 --> Found 31 direct messages
+DEBUG - 2025-04-28 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:23 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:23 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:32:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:36:45 --> ApiController initialized
+DEBUG - 2025-04-28 07:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:36:45 --> ApiController initialized
+DEBUG - 2025-04-28 07:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:36:46 --> ApiController initialized
+DEBUG - 2025-04-28 07:36:46 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:36:46 --> Found 31 direct messages
+DEBUG - 2025-04-28 07:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:48 --> ApiController initialized
+DEBUG - 2025-04-28 07:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:49 --> ApiController initialized
+DEBUG - 2025-04-28 07:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:49 --> ApiController initialized
+DEBUG - 2025-04-28 07:40:49 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:40:49 --> Found 31 direct messages
+DEBUG - 2025-04-28 07:40:50 --> ApiController initialized
+DEBUG - 2025-04-28 07:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:50 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:40:50 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:40:50","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:40:51 --> Message saved successfully with ID: 780
+DEBUG - 2025-04-28 07:40:51 --> Sending message to socket server: {"event":"new_message","data":{"id":780,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:40:51","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:40:51 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:40:52 --> ApiController initialized
+DEBUG - 2025-04-28 07:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:40:52 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:40:52 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:40:52","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:40:52 --> Message saved successfully with ID: 781
+DEBUG - 2025-04-28 07:40:52 --> Sending message to socket server: {"event":"new_message","data":{"id":781,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:40:52","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:40:52 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:01 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:01 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:01 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:41:01","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:41:01 --> Message saved successfully with ID: 782
+DEBUG - 2025-04-28 07:41:01 --> Sending message to socket server: {"event":"new_message","data":{"id":782,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:41:01","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:01 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:02 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:02 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:41:02","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:41:02 --> Message saved successfully with ID: 783
+DEBUG - 2025-04-28 07:41:02 --> Sending message to socket server: {"event":"new_message","data":{"id":783,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:41:02","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:02 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:03 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:03 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:03 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:41:03","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:41:03 --> Message saved successfully with ID: 784
+DEBUG - 2025-04-28 07:41:03 --> Sending message to socket server: {"event":"new_message","data":{"id":784,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:41:03","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:03 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:28 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-04-28 07:41:28 --> Found 7 direct messages
+DEBUG - 2025-04-28 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:29 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 07:41:29 --> Is admin: no
+DEBUG - 2025-04-28 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:31 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:31 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:35 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 07:41:35 --> Is admin: no
+DEBUG - 2025-04-28 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:35 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 07:41:35 --> Is admin: yes
+DEBUG - 2025-04-28 07:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:36 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:36 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:37 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:37 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:39 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:39 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"sss\r\ns","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:39 --> Attempting to save message: {"sender_id":"9","content":"sss\r\ns","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:39","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:39 --> Message saved successfully with ID: 785
+DEBUG - 2025-04-28 07:41:39 --> Sending message to socket server: {"event":"new_message","data":{"id":785,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"sss\r\ns","type":"text","file_url":null,"created_at":"2025-04-28 07:41:39","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:39 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:39 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:39 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:39 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:39","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:39 --> Message saved successfully with ID: 786
+DEBUG - 2025-04-28 07:41:39 --> Sending message to socket server: {"event":"new_message","data":{"id":786,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:41:39","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:39 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:39 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:39 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:39 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:39","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:39 --> Message saved successfully with ID: 787
+DEBUG - 2025-04-28 07:41:39 --> Sending message to socket server: {"event":"new_message","data":{"id":787,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:41:39","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:39 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:40 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:40 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:40 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:40","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:40 --> Message saved successfully with ID: 788
+DEBUG - 2025-04-28 07:41:40 --> Sending message to socket server: {"event":"new_message","data":{"id":788,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:41:40","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:40 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:40 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:40 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:40 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:40","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:40 --> Message saved successfully with ID: 789
+DEBUG - 2025-04-28 07:41:40 --> Sending message to socket server: {"event":"new_message","data":{"id":789,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:41:40","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:40 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:40 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:40 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"sz","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:40 --> Attempting to save message: {"sender_id":"9","content":"sz","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:40","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:40 --> Message saved successfully with ID: 790
+DEBUG - 2025-04-28 07:41:40 --> Sending message to socket server: {"event":"new_message","data":{"id":790,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"sz","type":"text","file_url":null,"created_at":"2025-04-28 07:41:40","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:40 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:47 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:47 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"@@@@\r\n\r\n@\r\n2@@2\r\n@22","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:47 --> Attempting to save message: {"sender_id":"9","content":"@@@@\r\n\r\n@\r\n2@@2\r\n@22","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:47","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:47 --> Message saved successfully with ID: 791
+DEBUG - 2025-04-28 07:41:47 --> Sending message to socket server: {"event":"new_message","data":{"id":791,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"@@@@\r\n\r\n@\r\n2@@2\r\n@22","type":"text","file_url":null,"created_at":"2025-04-28 07:41:47","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:47 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:51 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:51 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"@SEan1","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:41:51 --> Attempting to save message: {"sender_id":"9","content":"@SEan1","type":"text","file_url":null,"is_group":1,"created_at":"2025-04-28 07:41:51","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:51 --> Message saved successfully with ID: 792
+DEBUG - 2025-04-28 07:41:51 --> Sending message to socket server: {"event":"new_message","data":{"id":792,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"@SEan1","type":"text","file_url":null,"created_at":"2025-04-28 07:41:51","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:51 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:41:58 --> ApiController initialized
+DEBUG - 2025-04-28 07:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:41:58 --> saveMessage request data: {"is_group":1,"group_id":"17","receiver_id":null,"content":"File: default-group.png","type":"image","userId":"9"}
+DEBUG - 2025-04-28 07:41:58 --> Attempting to save message: {"sender_id":"9","content":"File: default-group.png","type":"image","file_url":"1745826118_b5acaeb182038203b0a5.jpg","is_group":1,"created_at":"2025-04-28 07:41:58","group_id":"17","receiver_id":null}
+DEBUG - 2025-04-28 07:41:58 --> Message saved successfully with ID: 793
+DEBUG - 2025-04-28 07:41:58 --> Sending message to socket server: {"event":"new_message","data":{"id":793,"sender_id":"9","receiver_id":null,"group_id":"17","is_group":1,"content":"File: default-group.png","type":"image","file_url":"1745826118_b5acaeb182038203b0a5.jpg","created_at":"2025-04-28 07:41:58","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:41:58 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:01 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 07:42:01 --> Is admin: no
+DEBUG - 2025-04-28 07:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:03 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:03 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-04-28 07:42:03 --> Is admin: yes
+DEBUG - 2025-04-28 07:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:05 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:05 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:05 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:06 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:06 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":3}
+DEBUG - 2025-04-28 07:42:06 --> Is admin: yes
+DEBUG - 2025-04-28 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:07 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:08 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:08 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:08 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:10 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:10 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:42:10 --> ApiController initialized
+DEBUG - 2025-04-28 07:42:10 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:42:10 --> Found 36 direct messages
+DEBUG - 2025-04-28 07:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:24 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:37 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:38 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:48 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:48 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"dasdas","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:48 --> Attempting to save message: {"sender_id":"9","content":"dasdas","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:48","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:48 --> Message saved successfully with ID: 794
+DEBUG - 2025-04-28 07:43:48 --> Sending message to socket server: {"event":"new_message","data":{"id":794,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"dasdas","type":"text","file_url":null,"created_at":"2025-04-28 07:43:48","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:48 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:52 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:52 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asdas","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:52 --> Attempting to save message: {"sender_id":"9","content":"asdas","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:52","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:52 --> Message saved successfully with ID: 795
+DEBUG - 2025-04-28 07:43:52 --> Sending message to socket server: {"event":"new_message","data":{"id":795,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asdas","type":"text","file_url":null,"created_at":"2025-04-28 07:43:52","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:52 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:52 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:53 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sa","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:53 --> Attempting to save message: {"sender_id":"9","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:53","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:53 --> Message saved successfully with ID: 796
+DEBUG - 2025-04-28 07:43:53 --> Sending message to socket server: {"event":"new_message","data":{"id":796,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:43:53","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:53 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:53 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:53 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"d","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:53 --> Attempting to save message: {"sender_id":"9","content":"d","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:53","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:53 --> Message saved successfully with ID: 797
+DEBUG - 2025-04-28 07:43:53 --> Sending message to socket server: {"event":"new_message","data":{"id":797,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"d","type":"text","file_url":null,"created_at":"2025-04-28 07:43:53","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:53 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:53 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:53 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:53 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:53","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:53 --> Message saved successfully with ID: 798
+DEBUG - 2025-04-28 07:43:53 --> Sending message to socket server: {"event":"new_message","data":{"id":798,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:43:53","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:53 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:53 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:53 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:53 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:53","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:53 --> Message saved successfully with ID: 799
+DEBUG - 2025-04-28 07:43:53 --> Sending message to socket server: {"event":"new_message","data":{"id":799,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:43:53","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:53 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:54 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:54 --> Message saved successfully with ID: 800
+DEBUG - 2025-04-28 07:43:54 --> Sending message to socket server: {"event":"new_message","data":{"id":800,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 07:43:54","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:54 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"z","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:54 --> Attempting to save message: {"sender_id":"9","content":"z","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:54 --> Message saved successfully with ID: 801
+DEBUG - 2025-04-28 07:43:54 --> Sending message to socket server: {"event":"new_message","data":{"id":801,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"z","type":"text","file_url":null,"created_at":"2025-04-28 07:43:54","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:54 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"x","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:54 --> Attempting to save message: {"sender_id":"9","content":"x","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:54 --> Message saved successfully with ID: 802
+DEBUG - 2025-04-28 07:43:54 --> Sending message to socket server: {"event":"new_message","data":{"id":802,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"x","type":"text","file_url":null,"created_at":"2025-04-28 07:43:54","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:54 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:55 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"c","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:55 --> Attempting to save message: {"sender_id":"9","content":"c","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:55","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:55 --> Message saved successfully with ID: 803
+DEBUG - 2025-04-28 07:43:55 --> Sending message to socket server: {"event":"new_message","data":{"id":803,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"c","type":"text","file_url":null,"created_at":"2025-04-28 07:43:55","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:55 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:55 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"z","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:55 --> Attempting to save message: {"sender_id":"9","content":"z","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:55","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:55 --> Message saved successfully with ID: 804
+DEBUG - 2025-04-28 07:43:55 --> Sending message to socket server: {"event":"new_message","data":{"id":804,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"z","type":"text","file_url":null,"created_at":"2025-04-28 07:43:55","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:55 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:55 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sa","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:55 --> Attempting to save message: {"sender_id":"9","content":"sa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:55","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:55 --> Message saved successfully with ID: 805
+DEBUG - 2025-04-28 07:43:55 --> Sending message to socket server: {"event":"new_message","data":{"id":805,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sa","type":"text","file_url":null,"created_at":"2025-04-28 07:43:55","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:55 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:43:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:43:56 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"a","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:43:56 --> Attempting to save message: {"sender_id":"9","content":"a","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:43:56","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:43:56 --> Message saved successfully with ID: 806
+DEBUG - 2025-04-28 07:43:56 --> Sending message to socket server: {"event":"new_message","data":{"id":806,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"a","type":"text","file_url":null,"created_at":"2025-04-28 07:43:56","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:43:56 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:44:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:44:22 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:44:22 --> Found 49 direct messages
+DEBUG - 2025-04-28 07:45:41 --> ApiController initialized
+DEBUG - 2025-04-28 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:45:41 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"sadasd","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:45:41 --> Attempting to save message: {"sender_id":"10","content":"sadasd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:45:41","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:45:41 --> Message saved successfully with ID: 807
+DEBUG - 2025-04-28 07:45:41 --> Sending message to socket server: {"event":"new_message","data":{"id":807,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"sadasd","type":"text","file_url":null,"created_at":"2025-04-28 07:45:41","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:45:41 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:45:41 --> ApiController initialized
+DEBUG - 2025-04-28 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:45:41 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"z","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:45:41 --> Attempting to save message: {"sender_id":"10","content":"z","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:45:41","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:45:41 --> Message saved successfully with ID: 808
+DEBUG - 2025-04-28 07:45:41 --> Sending message to socket server: {"event":"new_message","data":{"id":808,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"z","type":"text","file_url":null,"created_at":"2025-04-28 07:45:41","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:45:41 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:45:41 --> ApiController initialized
+DEBUG - 2025-04-28 07:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:45:41 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"x","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:45:41 --> Attempting to save message: {"sender_id":"10","content":"x","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:45:41","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:45:41 --> Message saved successfully with ID: 809
+DEBUG - 2025-04-28 07:45:41 --> Sending message to socket server: {"event":"new_message","data":{"id":809,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"x","type":"text","file_url":null,"created_at":"2025-04-28 07:45:41","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:45:41 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:45:42 --> ApiController initialized
+DEBUG - 2025-04-28 07:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:45:42 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"c","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:45:42 --> Attempting to save message: {"sender_id":"10","content":"c","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:45:42","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:45:42 --> Message saved successfully with ID: 810
+DEBUG - 2025-04-28 07:45:42 --> Sending message to socket server: {"event":"new_message","data":{"id":810,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"c","type":"text","file_url":null,"created_at":"2025-04-28 07:45:42","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:45:42 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:45:42 --> ApiController initialized
+DEBUG - 2025-04-28 07:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:45:42 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"z","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:45:42 --> Attempting to save message: {"sender_id":"10","content":"z","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:45:42","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:45:42 --> Message saved successfully with ID: 811
+DEBUG - 2025-04-28 07:45:42 --> Sending message to socket server: {"event":"new_message","data":{"id":811,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"z","type":"text","file_url":null,"created_at":"2025-04-28 07:45:42","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:45:42 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:14 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:14 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:14 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:14 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-04-28 07:50:14 --> Found 0 direct messages
+DEBUG - 2025-04-28 07:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:15 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:16 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:16 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:16 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:50:16 --> Found 54 direct messages
+DEBUG - 2025-04-28 07:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:17 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:17 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:18 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:18 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-04-28 07:50:18 --> Found 0 direct messages
+DEBUG - 2025-04-28 07:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:20 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:20 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-04-28 07:50:20 --> Found 0 direct messages
+DEBUG - 2025-04-28 07:50:22 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:22 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:50:22 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:50:22","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 07:50:22 --> Message saved successfully with ID: 812
+DEBUG - 2025-04-28 07:50:22 --> Sending message to socket server: {"event":"new_message","data":{"id":812,"sender_id":"10","receiver_id":"11","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:50:22","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:50:22 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:50:23 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:23 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"11","content":"s","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:50:23 --> Attempting to save message: {"sender_id":"10","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:50:23","receiver_id":"11","group_id":null}
+DEBUG - 2025-04-28 07:50:23 --> Message saved successfully with ID: 813
+DEBUG - 2025-04-28 07:50:23 --> Sending message to socket server: {"event":"new_message","data":{"id":813,"sender_id":"10","receiver_id":"11","group_id":null,"is_group":0,"content":"s","type":"text","file_url":null,"created_at":"2025-04-28 07:50:23","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:50:23 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:26 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-04-28 07:50:26 --> Found 2 direct messages
+DEBUG - 2025-04-28 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:27 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-04-28 07:50:27 --> Found 2 direct messages
+DEBUG - 2025-04-28 07:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:28 --> Group data: {"id":"13","name":"asda","description":"sadas","image":"default-group.png","created_by":"10","created_at":"2025-03-21 03:01:30","updated_at":"2025-03-21 03:01:30","member_count":1}
+DEBUG - 2025-04-28 07:50:28 --> Is admin: yes
+DEBUG - 2025-04-28 07:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:29 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:30 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:31 --> Group data: {"id":"14","name":"dasas","description":"dsadas","image":"1742783127_44ce1e4b1a0235febf78.png","created_by":"10","created_at":"2025-03-21 03:18:23","updated_at":"2025-03-24 02:26:04","member_count":3}
+DEBUG - 2025-04-28 07:50:31 --> Is admin: yes
+DEBUG - 2025-04-28 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:32 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:32 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:32 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:32 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:33 --> Group data: {"id":"13","name":"asda","description":"sadas","image":"default-group.png","created_by":"10","created_at":"2025-03-21 03:01:30","updated_at":"2025-03-21 03:01:30","member_count":1}
+DEBUG - 2025-04-28 07:50:33 --> Is admin: yes
+DEBUG - 2025-04-28 07:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:34 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:34 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:34 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:35 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:35 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:50:35 --> ApiController initialized
+DEBUG - 2025-04-28 07:50:35 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:50:35 --> Found 54 direct messages
+DEBUG - 2025-04-28 07:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:27 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 07:51:27 --> Found 54 direct messages
+DEBUG - 2025-04-28 07:51:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:28 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sadsa","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:51:28 --> Attempting to save message: {"sender_id":"9","content":"sadsa","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:51:28","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:51:28 --> Message saved successfully with ID: 814
+DEBUG - 2025-04-28 07:51:28 --> Sending message to socket server: {"event":"new_message","data":{"id":814,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sadsa","type":"text","file_url":null,"created_at":"2025-04-28 07:51:28","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:51:28 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:33 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:33 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:51:33 --> Found 55 direct messages
+DEBUG - 2025-04-28 07:51:36 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:36 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:51:36 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:51:36","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:51:36 --> Message saved successfully with ID: 815
+DEBUG - 2025-04-28 07:51:36 --> Sending message to socket server: {"event":"new_message","data":{"id":815,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 07:51:36","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:51:36 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:48 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:48 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"dsad","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:51:54 --> Attempting to save message: {"sender_id":"9","content":"dsad","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:51:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:51:54 --> Message saved successfully with ID: 816
+DEBUG - 2025-04-28 07:51:54 --> Sending message to socket server: {"event":"new_message","data":{"id":816,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"dsad","type":"text","file_url":null,"created_at":"2025-04-28 07:51:54","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:51:54 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:51:54 --> ApiController initialized
+DEBUG - 2025-04-28 07:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:51:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:51:54 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:51:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:51:54 --> Message saved successfully with ID: 817
+DEBUG - 2025-04-28 07:51:54 --> Sending message to socket server: {"event":"new_message","data":{"id":817,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 07:51:54","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:51:54 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:07 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:07 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:11 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:11 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:25 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sad","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:25 --> Attempting to save message: {"sender_id":"9","content":"sad","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:25","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:25 --> Message saved successfully with ID: 818
+DEBUG - 2025-04-28 07:52:25 --> Sending message to socket server: {"event":"new_message","data":{"id":818,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sad","type":"text","file_url":null,"created_at":"2025-04-28 07:52:25","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:25 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:25 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:25 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:25","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:25 --> Message saved successfully with ID: 819
+DEBUG - 2025-04-28 07:52:25 --> Sending message to socket server: {"event":"new_message","data":{"id":819,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 07:52:25","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:25 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:25 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"as","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:25 --> Attempting to save message: {"sender_id":"9","content":"as","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:25","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:25 --> Message saved successfully with ID: 820
+DEBUG - 2025-04-28 07:52:25 --> Sending message to socket server: {"event":"new_message","data":{"id":820,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"as","type":"text","file_url":null,"created_at":"2025-04-28 07:52:25","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:25 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:25 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:25 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"d","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:25 --> Attempting to save message: {"sender_id":"9","content":"d","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:25","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:25 --> Message saved successfully with ID: 821
+DEBUG - 2025-04-28 07:52:25 --> Sending message to socket server: {"event":"new_message","data":{"id":821,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"d","type":"text","file_url":null,"created_at":"2025-04-28 07:52:25","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:25 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:26 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"as","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:26 --> Attempting to save message: {"sender_id":"9","content":"as","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:26","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:26 --> Message saved successfully with ID: 822
+DEBUG - 2025-04-28 07:52:26 --> Sending message to socket server: {"event":"new_message","data":{"id":822,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"as","type":"text","file_url":null,"created_at":"2025-04-28 07:52:26","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:26 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:52:26 --> ApiController initialized
+DEBUG - 2025-04-28 07:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:52:26 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sad","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:52:26 --> Attempting to save message: {"sender_id":"9","content":"sad","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:52:26","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:52:26 --> Message saved successfully with ID: 823
+DEBUG - 2025-04-28 07:52:26 --> Sending message to socket server: {"event":"new_message","data":{"id":823,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sad","type":"text","file_url":null,"created_at":"2025-04-28 07:52:26","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:52:26 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:27 --> ApiController initialized
+DEBUG - 2025-04-28 07:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:28 --> ApiController initialized
+DEBUG - 2025-04-28 07:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:53:55 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:02 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:08 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:08 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:11 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:11 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"sadas","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:11 --> Attempting to save message: {"sender_id":"9","content":"sadas","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:11","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:11 --> Message saved successfully with ID: 824
+DEBUG - 2025-04-28 07:54:11 --> Sending message to socket server: {"event":"new_message","data":{"id":824,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"sadas","type":"text","file_url":null,"created_at":"2025-04-28 07:54:11","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:11 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:12 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:12 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"trest","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:12 --> Attempting to save message: {"sender_id":"9","content":"trest","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:12","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:12 --> Message saved successfully with ID: 825
+DEBUG - 2025-04-28 07:54:12 --> Sending message to socket server: {"event":"new_message","data":{"id":825,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"trest","type":"text","file_url":null,"created_at":"2025-04-28 07:54:12","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:12 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:12 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:12 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"tes","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:12 --> Attempting to save message: {"sender_id":"9","content":"tes","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:12","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:12 --> Message saved successfully with ID: 826
+DEBUG - 2025-04-28 07:54:12 --> Sending message to socket server: {"event":"new_message","data":{"id":826,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"tes","type":"text","file_url":null,"created_at":"2025-04-28 07:54:12","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:12 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:13 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:13 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"ttest","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:13 --> Attempting to save message: {"sender_id":"9","content":"ttest","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:13","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:13 --> Message saved successfully with ID: 827
+DEBUG - 2025-04-28 07:54:13 --> Sending message to socket server: {"event":"new_message","data":{"id":827,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"ttest","type":"text","file_url":null,"created_at":"2025-04-28 07:54:13","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:13 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:19 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:19 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 07:54:19 --> Found 68 direct messages
+DEBUG - 2025-04-28 07:54:24 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:24 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"test","type":"text","userId":"10"}
+DEBUG - 2025-04-28 07:54:24 --> Attempting to save message: {"sender_id":"10","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:24","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 07:54:24 --> Message saved successfully with ID: 828
+DEBUG - 2025-04-28 07:54:24 --> Sending message to socket server: {"event":"new_message","data":{"id":828,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:54:24","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 07:54:24 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:29 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:29 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:29 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:29","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:29 --> Message saved successfully with ID: 829
+DEBUG - 2025-04-28 07:54:29 --> Sending message to socket server: {"event":"new_message","data":{"id":829,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:54:29","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:29 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:29 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:29 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"test","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:29 --> Attempting to save message: {"sender_id":"9","content":"test","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:29","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:29 --> Message saved successfully with ID: 830
+DEBUG - 2025-04-28 07:54:29 --> Sending message to socket server: {"event":"new_message","data":{"id":830,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"test","type":"text","file_url":null,"created_at":"2025-04-28 07:54:29","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:29 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:54:38 --> ApiController initialized
+DEBUG - 2025-04-28 07:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:54:38 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asdas","type":"text","userId":"9"}
+DEBUG - 2025-04-28 07:54:38 --> Attempting to save message: {"sender_id":"9","content":"asdas","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 07:54:38","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 07:54:38 --> Message saved successfully with ID: 831
+DEBUG - 2025-04-28 07:54:38 --> Sending message to socket server: {"event":"new_message","data":{"id":831,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asdas","type":"text","file_url":null,"created_at":"2025-04-28 07:54:38","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 07:54:38 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 07:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:59:06 --> ApiController initialized
+DEBUG - 2025-04-28 07:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 07:59:06 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:04 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:04 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:08 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:08 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 08:09:08 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:08","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 08:09:08 --> Message saved successfully with ID: 832
+DEBUG - 2025-04-28 08:09:08 --> Sending message to socket server: {"event":"new_message","data":{"id":832,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 08:09:08","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 08:09:08 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:09 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:09 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 08:09:09 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:09","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 08:09:09 --> Message saved successfully with ID: 833
+DEBUG - 2025-04-28 08:09:09 --> Sending message to socket server: {"event":"new_message","data":{"id":833,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 08:09:09","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 08:09:09 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:15 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:15 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:18 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:18 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:18 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:18 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-04-28 08:09:18 --> Found 74 direct messages
+DEBUG - 2025-04-28 08:09:22 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:22 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"asd","type":"text","userId":"10"}
+DEBUG - 2025-04-28 08:09:22 --> Attempting to save message: {"sender_id":"10","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:22","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 08:09:22 --> Message saved successfully with ID: 834
+DEBUG - 2025-04-28 08:09:22 --> Sending message to socket server: {"event":"new_message","data":{"id":834,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 08:09:22","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 08:09:22 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:22 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:22 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"9","content":"as","type":"text","userId":"10"}
+DEBUG - 2025-04-28 08:09:22 --> Attempting to save message: {"sender_id":"10","content":"as","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:22","receiver_id":"9","group_id":null}
+DEBUG - 2025-04-28 08:09:22 --> Message saved successfully with ID: 835
+DEBUG - 2025-04-28 08:09:22 --> Sending message to socket server: {"event":"new_message","data":{"id":835,"sender_id":"10","receiver_id":"9","group_id":null,"is_group":0,"content":"as","type":"text","file_url":null,"created_at":"2025-04-28 08:09:22","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png"}}
+DEBUG - 2025-04-28 08:09:22 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:30 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:30 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"asd","type":"text","userId":"9"}
+DEBUG - 2025-04-28 08:09:30 --> Attempting to save message: {"sender_id":"9","content":"asd","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:30","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 08:09:30 --> Message saved successfully with ID: 836
+DEBUG - 2025-04-28 08:09:30 --> Sending message to socket server: {"event":"new_message","data":{"id":836,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"asd","type":"text","file_url":null,"created_at":"2025-04-28 08:09:30","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 08:09:30 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:35 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:35 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"@Sean1","type":"text","userId":"9"}
+DEBUG - 2025-04-28 08:09:35 --> Attempting to save message: {"sender_id":"9","content":"@Sean1","type":"text","file_url":null,"is_group":0,"created_at":"2025-04-28 08:09:35","receiver_id":"10","group_id":null}
+DEBUG - 2025-04-28 08:09:35 --> Message saved successfully with ID: 837
+DEBUG - 2025-04-28 08:09:35 --> Sending message to socket server: {"event":"new_message","data":{"id":837,"sender_id":"9","receiver_id":"10","group_id":null,"is_group":0,"content":"@Sean1","type":"text","file_url":null,"created_at":"2025-04-28 08:09:35","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg"}}
+DEBUG - 2025-04-28 08:09:35 --> Socket server response: {"success":true,"message":"Message broadcasted successfully"}
+DEBUG - 2025-04-28 08:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:58 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:58 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:09:59 --> ApiController initialized
+DEBUG - 2025-04-28 08:09:59 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-04-28 08:09:59 --> Found 78 direct messages

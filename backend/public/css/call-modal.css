@@ -1,0 +1,167 @@
+/* Modern Call Modal Overlay */
+.call-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f172a;
+    color: white;
+    overflow: hidden;
+}
+
+.call-glass-overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(99, 102, 241, 0.15) 0%, #0f172a 100%);
+    backdrop-filter: blur(20px);
+}
+
+.call-modal-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+/* Call Info & Avatar */
+.call-info-overlay {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.caller-avatar-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+}
+
+.caller-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.pulse-ring {
+    position: absolute;
+    inset: -10px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    animation: ringPulse 2s infinite;
+}
+
+@keyframes ringPulse {
+    0% { transform: scale(0.8); opacity: 1; }
+    100% { transform: scale(1.5); opacity: 0; }
+}
+
+.status-shimmer {
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #94a3b8;
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(90deg, #94a3b8, #fff, #94a3b8);
+    background-size: 200% auto;
+    -webkit-background-clip: text; /* Vendor version */
+    background-clip: text;         /* Standard version (Fixes the warning) */
+    -webkit-text-fill-color: transparent;
+}
+
+/* Video Grid */
+.video-grid {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.remote-video-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#call-remote-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.local-video-wrapper {
+    position: absolute;
+    bottom: 120px;
+    right: 30px;
+    width: 150px;
+    aspect-ratio: 3/4;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    z-index: 15;
+}
+
+#call-local-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Floating Controls */
+.call-controls-floating {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.control-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.control-btn:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-5px);
+}
+
+.control-btn.end-call {
+    background: #ef4444;
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+.control-btn.end-call:hover {
+    background: #dc2626;
+    transform: translateY(-5px) scale(1.1);
+}
+
+.status-shimmer {
+    animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}

@@ -1,0 +1,388 @@
+/* Connection status and error styles */
+.connection-error {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+  padding: 10px !important;
+  margin: 10px 0 !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+  position: relative !important;
+  z-index: 9999 !important;
+  font-weight: bold !important;
+  border: 1px solid #f5c6cb !important;
+}
+
+.retry-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.retry-btn:hover {
+  background-color: #0069d9;
+}
+
+/* Connection status styles */
+.connection-status {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+  z-index: 9999;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.connection-status.connected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.connection-status.connecting {
+  background-color: #ffc107;
+  color: black;
+}
+
+.connection-status.disconnected {
+  background-color: #f44336;
+  color: white;
+}
+
+.connection-status .retry-btn {
+  margin-left: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  color: #333;
+  cursor: pointer;
+}
+
+/* File attachment styles */
+.file-attachment-card {
+  display: flex;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 5px 0;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.file-attachment-card:hover {
+  background-color: #4a4a4a;
+  text-decoration: none;
+}
+
+.file-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 4px;
+  margin-right: 12px;
+  color: #3a3a3a;
+  font-size: 20px;
+}
+
+.file-card-details {
+  flex: 1;
+  overflow: hidden;
+}
+
+.file-card-name {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.file-card-info {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.file-download-text {
+  font-size: 12px;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+
+/* Image container with overlay */
+.image-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  margin: 5px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.message-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.open-image-btn {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.image-container:hover .message-image {
+  transform: scale(1.03);
+}
+
+/* Image caption */
+.image-caption {
+  display: block;
+  padding: 8px;
+  background-color: #3a3a3a;
+  color: white;
+  font-size: 14px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: -4px;
+}
+
+/* Message structure and layout */
+.message {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 16px;
+}
+
+.own-message {
+  align-items: flex-end;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.own-message .message-content {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+/* Message bubble styles - Updated for correct colors */
+.message-bubble {
+  position: relative;
+  padding: 10px 12px;
+  border-radius: 8px;
+  max-width: 90%;
+  min-width: 120px;
+  word-wrap: break-word;
+  background-color: #3a3a3a !important; /* Gray for received messages */
+  color: white;
+}
+
+/* Own message bubble - Purple for sent messages */
+.message.own-message .message-bubble {
+  background-color: rgba(108, 92, 231, 0.8) !important; /* Purple for sent messages */
+  color: white !important;
+}
+
+/* Message avatar positioning */
+.message-avatar {
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.own-message .message-avatar {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+/* Message sender name styling */
+.message-sender {
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+
+/* Message time styling */
+.message-time {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* Message text styling */
+.message-text {
+  line-height: 1.4;
+}
+
+/* Chat messages container */
+.chat-messages {
+  padding: 15px;
+}
+
+/* Teams/Skype style message action buttons */
+.message-actions {
+  position: absolute;
+  bottom: -10px;
+  display: none;
+  background-color: #2d2d2d;
+  border-radius: 16px;
+  padding: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.own-message .message-actions {
+  right: 10px;
+}
+
+.message:not(.own-message) .message-actions {
+  left: 40px;
+}
+
+.message:hover .message-actions {
+  display: flex;
+}
+
+.message-action-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  padding: 0;
+  margin: 0 2px;
+}
+
+.message-action-btn:hover {
+  background-color: #3d3d3d;
+  color: white;
+}
+
+.message-action-btn i {
+  font-size: 14px;
+}
+
+/* Specific button styles */
+.reply-btn:hover {
+  background-color: #6264a7;
+}
+
+.edit-btn:hover {
+  background-color: #4caf50;
+}
+
+.delete-btn:hover {
+  background-color: #f44336;
+}
+
+/* Emoji reaction container */
+.emoji-reactions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.emoji-reaction {
+  background-color: #3d3d3d;
+  border-radius: 12px;
+  padding: 2px 6px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Add styles for the leave group button */
+.danger-btn {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.danger-btn:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.danger-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+
+.danger-btn i {
+  margin-right: 4px;
+}
+
+
+.emoji-reaction:hover {
+  background-color: #4d4d4d;
+}
+
+.emoji-reaction-emoji {
+  margin-right: 4px;
+}
+
+.emoji-reaction-count {
+  color: #e0e0e0;
+}
+
+/* Reaction button */
+.reaction-btn:hover {
+  background-color: #ff9800;
+}

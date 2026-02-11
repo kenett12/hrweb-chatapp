@@ -1,0 +1,305 @@
+DEBUG - 2025-03-28 05:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-28 05:59:19 --> CSRF token verified.
+DEBUG - 2025-03-28 05:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:20 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:20 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:22 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:22 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:22 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:22 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:23 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:23 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:23 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:23 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:24 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:24 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:24 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:24 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:24 --> Found 15 direct messages
+DEBUG - 2025-03-28 05:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:24 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:24 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:24 --> Found 15 direct messages
+DEBUG - 2025-03-28 05:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:26 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:27 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:27 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:27 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:27 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:27 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:27 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:27 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:29 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 05:59:29 --> Is admin: Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 05:59:29 --> Is admin: yes
+DEBUG - 2025-03-28 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:30 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:30 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:30 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:31 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-03-28 05:59:31 --> Is admin: Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-03-28 05:59:31 --> Is admin: yes
+DEBUG - 2025-03-28 05:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:32 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:32 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:32 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:34 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:34 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:34 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:34 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:34 --> Found 15 direct messages
+DEBUG - 2025-03-28 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:34 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:34 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:34 --> Found 15 direct messages
+DEBUG - 2025-03-28 05:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:35 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:35 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:35 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:35 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:35 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:35 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:35 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 05:59:35 --> Found 62 direct messages
+DEBUG - 2025-03-28 05:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:53 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:53 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"ad","type":"text","userId":"9"}
+DEBUG - 2025-03-28 05:59:53 --> Attempting to save message: {"sender_id":"9","content":"ad","type":"text","file_url":null,"is_group":0,"created_at":"2025-03-28 05:59:53","receiver_id":"10","group_id":null}
+DEBUG - 2025-03-28 05:59:53 --> Message saved successfully with ID: 177
+DEBUG - 2025-03-28 05:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:54 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:54 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"s","type":"text","userId":"9"}
+DEBUG - 2025-03-28 05:59:54 --> Attempting to save message: {"sender_id":"9","content":"s","type":"text","file_url":null,"is_group":0,"created_at":"2025-03-28 05:59:54","receiver_id":"10","group_id":null}
+DEBUG - 2025-03-28 05:59:54 --> Message saved successfully with ID: 178
+DEBUG - 2025-03-28 05:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:55 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:55 --> saveMessage request data: {"is_group":0,"group_id":null,"receiver_id":"10","content":"d","type":"text","userId":"9"}
+DEBUG - 2025-03-28 05:59:55 --> Attempting to save message: {"sender_id":"9","content":"d","type":"text","file_url":null,"is_group":0,"created_at":"2025-03-28 05:59:55","receiver_id":"10","group_id":null}
+DEBUG - 2025-03-28 05:59:55 --> Message saved successfully with ID: 179
+DEBUG - 2025-03-28 05:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:59 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:59 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:59 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:59 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:59 --> Found 15 direct messages
+DEBUG - 2025-03-28 05:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 05:59:59 --> ApiController initialized
+DEBUG - 2025-03-28 05:59:59 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 05:59:59 --> Found 15 direct messages
+DEBUG - 2025-03-28 06:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:01 --> Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-03-28 06:00:01 --> Is admin: Group data: {"id":"17","name":"asd","description":"dasd","image":"1742787934_2af41237389b30b125fb.jpg","created_by":"9","created_at":"2025-03-24 00:59:56","updated_at":"2025-03-24 03:45:34","member_count":2}
+DEBUG - 2025-03-28 06:00:01 --> Is admin: yes
+DEBUG - 2025-03-28 06:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:02 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:02 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:02 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:03 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 06:00:03 --> Is admin: Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 06:00:03 --> Is admin: yes
+DEBUG - 2025-03-28 06:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:03 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:03 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:04 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:05 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:05 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:05 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:05 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:00:05 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:05 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:05 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:00:05 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:09 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:09 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:09 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:09 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:00:09 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:09 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:09 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:00:09 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:10 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:10 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:10 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:10 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 06:00:10 --> Found 15 direct messages
+DEBUG - 2025-03-28 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:00:10 --> ApiController initialized
+DEBUG - 2025-03-28 06:00:10 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 06:00:10 --> Found 15 direct messages
+DEBUG - 2025-03-28 06:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:04:56 --> ApiController initialized
+DEBUG - 2025-03-28 06:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:04:56 --> ApiController initialized
+DEBUG - 2025-03-28 06:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:04:56 --> ApiController initialized
+DEBUG - 2025-03-28 06:04:56 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 06:04:56 --> Found 15 direct messages
+DEBUG - 2025-03-28 06:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:04:57 --> ApiController initialized
+DEBUG - 2025-03-28 06:04:57 --> Getting direct messages between user 9 and 11
+DEBUG - 2025-03-28 06:04:57 --> Found 15 direct messages
+DEBUG - 2025-03-28 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-28 06:05:13 --> CSRF token verified.
+DEBUG - 2025-03-28 06:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:15 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:15 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:18 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:19 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:20 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:20 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-03-28 06:05:20 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:21 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:21 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-03-28 06:05:21 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:25 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:26 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:26 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:26 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:05:26 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:27 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:27 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:05:27 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:42 --> Group data: {"id":"13","name":"asda","description":"sadas","image":"default-group.png","created_by":"10","created_at":"2025-03-21 03:01:30","updated_at":"2025-03-21 03:01:30","member_count":1}
+DEBUG - 2025-03-28 06:05:42 --> Is admin: Group data: {"id":"13","name":"asda","description":"sadas","image":"default-group.png","created_by":"10","created_at":"2025-03-21 03:01:30","updated_at":"2025-03-21 03:01:30","member_count":1}
+DEBUG - 2025-03-28 06:05:42 --> Is admin: yes
+DEBUG - 2025-03-28 06:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:43 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:43 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:43 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:48 --> Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 06:05:48 --> Is admin: Group data: {"id":"18","name":"SIOPAO G","description":"da","image":"1742863296_06b1b74e1ecfaa26fbd8.jpg","created_by":"9","created_at":"2025-03-24 01:22:30","updated_at":"2025-03-25 00:41:36","member_count":2}
+DEBUG - 2025-03-28 06:05:48 --> Is admin: no
+DEBUG - 2025-03-28 06:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:49 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:49 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:49 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:50 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:50 --> Group members: [{"id":"9","username":"Sean","nickname":"Sean","avatar":"1742787462_efcf0e714f3ed6f857a3.jpg","is_admin":"1"},{"id":"10","username":"Sean1","nickname":"Sean1","avatar":"1742797405_23ff1a49e0f7e6d9b7b7.png","is_admin":"0"}]
+DEBUG - 2025-03-28 06:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:51 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:55 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:55 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:56 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:56 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-03-28 06:05:56 --> Found 8 direct messages
+DEBUG - 2025-03-28 06:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:57 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:57 --> Getting direct messages between user 10 and 11
+DEBUG - 2025-03-28 06:05:57 --> Found 8 direct messages
+DEBUG - 2025-03-28 06:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:58 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:58 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:05:59 --> ApiController initialized
+DEBUG - 2025-03-28 06:05:59 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-03-28 06:05:59 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:06:00 --> ApiController initialized
+DEBUG - 2025-03-28 06:06:00 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-03-28 06:06:00 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:25 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:25 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:07:25 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:30 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:30 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:07:30 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:31 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:31 --> Getting direct messages between user 10 and 9
+DEBUG - 2025-03-28 06:07:31 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:48 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:48 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:48 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:48 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:07:48 --> Found 65 direct messages
+DEBUG - 2025-03-28 06:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-28 06:07:49 --> ApiController initialized
+DEBUG - 2025-03-28 06:07:49 --> Getting direct messages between user 9 and 10
+DEBUG - 2025-03-28 06:07:49 --> Found 65 direct messages

@@ -1,0 +1,430 @@
+/* ================================
+   Message Status & Indicators
+   ================================ */
+
+/* Message Footer Container */
+.message-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 6px;
+  min-height: 18px;
+  padding: 2px 8px;
+  position: relative;
+}
+
+.own-message .message-footer {
+  justify-content: flex-end;
+}
+
+.message:not(.own-message) .message-footer {
+  justify-content: flex-start;
+}
+
+/* Base Message Status */
+.message-status {
+  font-size: 0.75rem;
+  color: #8e8e8e;
+  margin-top: 4px;
+  text-align: right;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  min-height: 18px;
+}
+
+/* Only show status on the last message */
+.message:not(:last-child) .message-status {
+  display: none;
+}
+
+.message.own-message:last-of-type .message-status {
+  display: block !important;
+}
+
+
+/* ================================
+   Seen & Sent Indicators
+   ================================ */
+
+.seen-indicator,
+.sent-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: #a0a0a0;
+  margin-top: 2px;
+  transition: color 0.2s ease;
+}
+
+.seen-indicator {
+  cursor: pointer;
+}
+
+.seen-indicator:hover {
+  color: #c0c0c0;
+}
+
+.seen-indicator::before {
+  content: "✓";
+  margin-right: 2px;
+  font-weight: 600;
+  color: #6c5ce7;
+}
+
+.seen-text,
+.sent-text {
+  font-size: 0.688rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.seen-time {
+  font-size: 0.625rem;
+  color: #999;
+  margin-left: 6px;
+  white-space: nowrap;
+  opacity: 0.8;
+}
+
+
+/* ================================
+   Avatar-Based Seen Indicators
+   ================================ */
+
+.seen-avatars {
+  display: flex;
+  align-items: center;
+  min-width: 20px;
+  gap: 0;
+}
+
+.seen-avatar-container {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+  background-color: #2a2a2a;
+  overflow: hidden;
+  margin-left: -6px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.seen-avatar-container:first-child {
+  margin-left: 0;
+}
+
+.seen-avatar-container:hover {
+  transform: scale(1.15) translateY(-2px);
+  z-index: 10;
+  border-color: #6c5ce7;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+}
+
+.seen-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Avatar Tooltip */
+.seen-avatar-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.95) 0%, rgba(30, 30, 30, 0.95) 100%);
+  backdrop-filter: blur(8px);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.seen-avatar-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: rgba(0, 0, 0, 0.95);
+}
+
+.seen-avatar-container:hover .seen-avatar-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* Seen Count Badge */
+.seen-count {
+  font-size: 0.625rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  box-shadow: 0 2px 6px rgba(108, 92, 231, 0.4);
+  transition: transform 0.2s ease;
+}
+
+.seen-count:hover {
+  transform: scale(1.1);
+}
+
+
+/* ================================
+   Seen Info Panel
+   ================================ */
+
+.seen-info-panel {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  right: 0;
+  background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px;
+  width: 220px;
+  max-height: 320px;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4),
+              0 0 1px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.seen-indicator:hover + .seen-info-panel,
+.seen-info-panel:hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Custom Scrollbar */
+.seen-info-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.seen-info-panel::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.seen-info-panel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.seen-info-panel::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.seen-info-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background-color 0.2s ease;
+  border-radius: 6px;
+}
+
+.seen-info-item:last-child {
+  border-bottom: none;
+}
+
+.seen-info-item:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.seen-info-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid rgba(108, 92, 231, 0.3);
+  object-fit: cover;
+}
+
+.seen-info-name {
+  flex: 1;
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
+
+.seen-info-time {
+  font-size: 0.688rem;
+  color: #a0a0a0;
+  font-weight: 400;
+}
+
+
+/* ================================
+   Reply Styling
+   ================================ */
+
+.replied-message {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.25) 0%, rgba(108, 92, 231, 0.15) 100%);
+  border-left: 3px solid #6c5ce7;
+  padding: 10px 14px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 2px;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease;
+}
+
+.replied-message:hover {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.3) 0%, rgba(108, 92, 231, 0.2) 100%);
+}
+
+.replied-message-header {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 0.813rem;
+  letter-spacing: 0.02em;
+}
+
+.replied-message-content {
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.4;
+  font-size: 0.813rem;
+}
+
+.reply-container {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.2) 0%, rgba(108, 92, 231, 0.1) 100%);
+  border-left: 3px solid #6c5ce7;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.reply-container:hover {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.25) 0%, rgba(108, 92, 231, 0.15) 100%);
+  transform: translateX(2px);
+}
+
+.reply-indicator {
+  margin-right: 10px;
+  color: #6c5ce7;
+  font-size: 1.125rem;
+}
+
+.reply-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.reply-header {
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #ffffff;
+  font-size: 0.813rem;
+}
+
+.reply-text {
+  opacity: 0.85;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.813rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.reply-close {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0 8px;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reply-close:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: rotate(90deg);
+}
+
+.reply-close:active {
+  transform: rotate(90deg) scale(0.95);
+}
+
+
+/* ================================
+   Message Bubble Enhancement
+   ================================ */
+
+.message-bubble {
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+
+/* ================================
+   Animations
+   ================================ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.seen-indicator,
+.sent-indicator {
+  animation: fadeInUp 0.3s ease;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.message-status {
+  animation: fadeInUp 0.4s ease;
+}
